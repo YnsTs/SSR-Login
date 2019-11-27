@@ -1,0 +1,11 @@
+/*=================================================================
+  ABOUT
+==================================================================*/
+#about-container {@extend .cntOv;
+	.about-content {
+		.our-vision, .our-mission {@extend .cnt; width:50%; padding:20px 0;}
+		.our-vision {float:left;}
+		.our-mission {float:right;}
+		p {font-size:14px; line-height:18px;}
+	}
+}

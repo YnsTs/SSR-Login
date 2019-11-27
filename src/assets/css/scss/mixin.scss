@@ -1,0 +1,12 @@
+/*=================================================================
+  MIXIN
+==================================================================*/
+@mixin border-radius($radius){-webkit-border-radius:$radius; -moz-border-radius:$radius; border-radius:$radius;}
+@mixin transition($animate){-webkit-transition:$animate; -moz-transition:$animate; -ms-transition:$animate; -o-transition:$animate; transition:$animate;}
+@mixin transform-rotate($rotate){-webkit-transform: rotate($rotate); -moz-transform: rotate($rotate); -o-transform: rotate($rotate); -ms-transform: rotate($rotate); transform: rotate($rotate); }
+@mixin transform-rotateY($rotate){-webkit-transform: rotateY($rotate); -moz-transform: rotateY($rotate); -o-transform: rotateY($rotate); -ms-transform: rotateY($rotate); transform: rotateY($rotate);}
+@mixin scale($scaleX,$scaleY){transform:scale($scaleX,$scaleY); -webkit-transform:scale($scaleX,$scaleY); -moz-transform:scale($scaleX,$scaleY); -o-transform:scale($scaleX,$scaleY); -ms-transform:scale($scaleX,$scaleY);}
+@mixin skew($skew){transform:skew($skew); -webkit-transform:skew($skew); -moz-transform:skew($skew); -o-transform:skew($skew); -ms-transform:skew($skew);}
+@mixin borderOpacity($borderOp){border:$borderOp}
+@mixin borderBottomOpacity($borderOp){border-bottom:$borderOp}
+@mixin transition-duration($transitionDuration){-webkit-transition: $transitionDuration; -moz-transition: $transitionDuration; -ms-transition: $transitionDuration; -o-transition: $transitionDuration; transition: $transitionDuration;}

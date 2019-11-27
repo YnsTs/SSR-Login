@@ -1,0 +1,43 @@
+/*=================================================================
+  PRODUCT
+==================================================================*/
+.product-list {@extend .cntOv;
+	.item {float:left; width:23%; border:solid 1px $baseBackgroundColor; margin:2% 1% 0; @include border-radius(25px 0px 25px 0px); @include transition(all 0.3s ease-in 0s);
+		a {width:100%; padding:5%; text-align:center; color:$baseColor; @include transition(all 0.3s ease-in 0s);}
+		img {width:100%; height:auto;}
+	}
+	.item:hover {@include border-radius(0px 25px 0px 25px); @include transition(all 0.3s ease-in 0s);
+		a {@include transition(all 0.3s ease-in 0s); color:$whiteColor;}
+	}
+}
+
+
+.product-list{@extend .cntOv;
+	.item {@extend .cnt; width:23%; padding:2%.5% 1%; float:left;
+		h3,p {width:100%; padding:0; margin:5px 0; text-align:center; font-size:16px; line-height:22px;}	
+		img {width:100%; height:auto;}
+	}
+	/*button {width:100%; height:32px; background:$baseBackgroundColor; border:none; cursor:pointer; color:#ffffff;}*/
+}
+
+@media screen and (max-width:1366px) {
+	
+}
+
+@media screen and (max-width:1024px) {
+	.product-list{
+		.item {width:48%; padding:2% 1% 1%; float:left;}
+	}
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:640px) {
+
+}
+
+@media screen and (max-width:480px) {
+
+}

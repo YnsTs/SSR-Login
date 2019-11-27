@@ -1,0 +1,53 @@
+/*=================================================================
+  IMPORT SCSS-SASS-CSS-FONT
+==================================================================*/
+@import url("https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900");
+@import "~animate.css/animate.min.css";
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+@import '~owl.carousel/dist/assets/owl.theme.default.css';
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("~font-awesome/fonts/fontawesome-webfont.eot");
+  src: url("~font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),
+  url("~font-awesome/fonts/fontawesome-webfont.woff2") format("woff2"),
+  url("~font-awesome/fonts/fontawesome-webfont.woff") format("woff"),
+  url("~font-awesome/fonts/fontawesome-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*=================================================================
+  TITLE - TEXT
+==================================================================*/
+h2 {font-size:30px; line-height:34px;}
+h3 {font-size:20px; line-height:24px;}
+h4 {font-size:16px; line-height:20px;}
+p {font-size:14px; line-height:18px; padding:10px 0;}
+
+/*=================================================================
+  COLOR
+==================================================================*/
+$baseColor:#000000;
+$whiteColor:#ffffff;
+
+/*=================================================================
+  HOVER
+==================================================================*/
+$colorHover:#ffc200;
+
+/*=================================================================
+  BACKGROUND
+==================================================================*/
+$baseBackgroundColor:#222222;
+$yellowBackgroundColor:#f2c200;
+
+/*=================================================================
+  GENERAL
+==================================================================*/
+body {font-size:14px; font-family:'Cairo', sans-serif; background:$yellowBackgroundColor;}
+html, #wrapper, #contentCt, #contentCt {height:100%!important;}
+#wrapper {@extend .cntOv;}
+#contentCt {overflow:hidden; padding:25px; width:100%;}

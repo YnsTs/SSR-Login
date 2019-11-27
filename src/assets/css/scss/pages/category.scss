@@ -1,0 +1,29 @@
+/*=================================================================
+  CATEGORY
+==================================================================*/
+.category-list {@extend .cntOv; width:20%; margin:20px 0; border:solid 1px $baseColor;
+	li {border-top:solid 1px $baseColor;
+		a {padding:10px; color:$baseColor}
+	}
+	li:first-child {margin:0; border:none;}
+}
+
+@media screen and (max-width:1366px) {
+	
+}
+
+@media screen and (max-width:1024px) {
+	
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:640px) {
+
+}
+
+@media screen and (max-width:480px) {
+
+}

@@ -1,0 +1,21 @@
+/*=================================================================
+  HOME
+==================================================================*/
+.product-list {@extend .cntOv;
+	.item {float:left; width:23%; border:solid 1px $baseBackgroundColor; margin:2% 1% 0; @include border-radius(20px 0px 20px 0px); @include transition(all 0.3s ease-in 0s);
+		a {width:100%; padding:5%; text-align:center; color:$baseColor; @include transition(all 0.3s ease-in 0s);}
+		img {width:100%; height:auto; padding-bottom:5%;}
+	}
+	.item:hover {@include border-radius(0px 20px 0px 20px); @include transition(all 0.3s ease-in 0s);
+		a {@include transition(all 0.3s ease-in 0s); color:$whiteColor;}
+	}
+}
+
+#product-container {@extend .cntOv;}
+.product-list{@extend .cntOv;
+	.product-item {@extend .cnt; width:23%; padding:2%.5% 1%; float:left;
+		h3,p {width:100%; padding:0; margin:5px 0; text-align:center; font-size:12px; line-height:22px;}	
+		img {width:100%; height:auto;}
+	}
+	button {width:100%; height:32px; background:$baseBackgroundColor; border:none; cursor:pointer; color:#ffffff;}
+}
